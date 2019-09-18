@@ -1,0 +1,15 @@
+C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\obj\Release\WpfAppTest2.csprojAssemblyReference.cache
+C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\obj\Release\MainWindow.g.cs
+C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\obj\Release\App.g.cs
+C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\obj\Release\MainWindow.baml
+C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\obj\Release\WpfAppTest2.csproj.GenerateResource.cache
+C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\obj\Release\WpfAppTest2.csproj.CoreCompileInputs.cache
+C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\bin\Release\OhbaLabTimeRecoder.exe.config
+C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\bin\Release\OhbaLabTimeRecoder.exe
+C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\bin\Release\OhbaLabTimeRecoder.pdb
+C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\obj\Release\OhbaLabTimeRecoder_MarkupCompile.cache
+C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\obj\Release\OhbaLabTimeRecoder_MarkupCompile.lref
+C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\obj\Release\OhbaLabTimeRecoder.g.resources
+C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\obj\Release\OhbaLabTimeRecoder.Properties.Resources.resources
+C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\obj\Release\OhbaLabTimeRecoder.exe
+C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\obj\Release\OhbaLabTimeRecoder.pdb
