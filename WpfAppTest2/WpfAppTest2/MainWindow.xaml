@@ -129,22 +129,22 @@
             </Button.Background>
         </Button>
 
-        <Label x:Name="label01" Grid.Row="0" Grid.Column="1" Content="在室" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-        <Label x:Name="label02" Grid.Row="0" Grid.Column="2" Content="授業" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-        <Label x:Name="label03" Grid.Row="0" Grid.Column="3" Content="演習室" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-        <Label x:Name="label04" Grid.Row="0" Grid.Column="4" Content="工作室" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-        <Label x:Name="label05" Grid.Row="0" Grid.Column="5" Content="その他" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-        <Label x:Name="label06" Grid.Row="0" Grid.Column="6" Content="学外" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-        <Label x:Name="label07" Grid.Row="0" Grid.Column="7" Content="帰宅" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+        <Label x:Name="label01" Grid.Row="0" Grid.Column="1" Content="在室" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+        <Label x:Name="label02" Grid.Row="0" Grid.Column="2" Content="授業" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+        <Label x:Name="label03" Grid.Row="0" Grid.Column="3" Content="演習室" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+        <Label x:Name="label04" Grid.Row="0" Grid.Column="4" Content="工作室" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+        <Label x:Name="label05" Grid.Row="0" Grid.Column="5" Content="その他" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+        <Label x:Name="label06" Grid.Row="0" Grid.Column="6" Content="学外" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+        <Label x:Name="label07" Grid.Row="0" Grid.Column="7" Content="帰宅" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
 
-        <Label x:Name="label10" Grid.Row="1" Grid.Column="0" Content="大庭先生" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-        <Label x:Name="label20" Grid.Row="2" Grid.Column="0" Content="伊東" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-        <Label x:Name="label30" Grid.Row="3" Grid.Column="0" Content="久保寺" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-        <Label x:Name="label40" Grid.Row="4" Grid.Column="0" Content="足立" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-        <Label x:Name="label50" Grid.Row="5" Grid.Column="0" Content="川口" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-        <Label x:Name="label60" Grid.Row="6" Grid.Column="0" Content="鈴木" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-        <Label x:Name="label70" Grid.Row="7" Grid.Column="0" Content="中村" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-        <Label x:Name="label80" Grid.Row="8" Grid.Column="0" Content="渡邊" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+        <Label x:Name="label10" Grid.Row="1" Grid.Column="0" Content="大庭先生" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+        <Label x:Name="label20" Grid.Row="2" Grid.Column="0" Content="伊東" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+        <Label x:Name="label30" Grid.Row="3" Grid.Column="0" Content="久保寺" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+        <Label x:Name="label40" Grid.Row="4" Grid.Column="0" Content="足立" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+        <Label x:Name="label50" Grid.Row="5" Grid.Column="0" Content="川口" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+        <Label x:Name="label60" Grid.Row="6" Grid.Column="0" Content="鈴木" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+        <Label x:Name="label70" Grid.Row="7" Grid.Column="0" Content="中村" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+        <Label x:Name="label80" Grid.Row="8" Grid.Column="0" Content="渡邊" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
 
         <RadioButton x:Name="button11" GroupName="column1" Style="{StaticResource {x:Type ToggleButton}}" Grid.Row="1" Grid.Column="1" Background="White" Checked="ToggleButton_Checked"/>
         <RadioButton x:Name="button12" GroupName="column1" Style="{StaticResource {x:Type ToggleButton}}" Grid.Row="1" Grid.Column="2" Background="White" Checked="ToggleButton_Checked"/>
