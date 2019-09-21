@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\obj\Release\
+C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\obj\Debug\
 OhbaLabTimeRecoder
 none
 false
-TRACE
+DEBUG;TRACE
 C:\Users\Guilty\source\repos\WpfAppTest2\WpfAppTest2\App.xaml
 11151548125
 
-5-2017746502
+6-166091661
 15-847056662
 MainWindow.xaml;
 
-False
+True
 

@@ -112,7 +112,7 @@
         <Border Grid.Row="8" Grid.Column="6" BorderThickness="2,2,2,2" BorderBrush="Gray"/>
         <Border Grid.Row="8" Grid.Column="7" BorderThickness="2,2,2,2" BorderBrush="Gray"/>
 
-        <Button x:Name="exitButton" Grid.Row="0" Grid.Column="0" Content="❌" Click="ExitButton_Clicked" HorizontalAlignment="Left" VerticalAlignment="Top" Height="32" Width="32" Foreground="White">
+        <Button x:Name="exitButton" Grid.Row="0" Grid.Column="0" Content="❌" Click="ExitButton_Clicked" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Width="50" Foreground="White">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFE00000" Offset="1"/>
@@ -120,7 +120,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="minimizeButton" Grid.Row="0" Grid.Column="0" Content="➖" Click="MinimizeButton_Clicked" HorizontalAlignment="Left" VerticalAlignment="Top" Height="32" Width="32" Foreground="White" Margin="31,0,0,0">
+        <Button x:Name="minimizeButton" Grid.Row="0" Grid.Column="0" Content="➖" Click="MinimizeButton_Clicked" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Width="50" Foreground="White" Margin="49,0,0,0" Grid.ColumnSpan="2" Grid.RowSpan="2">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFC0C000" Offset="1"/>
