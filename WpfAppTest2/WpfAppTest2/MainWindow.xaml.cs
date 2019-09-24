@@ -32,7 +32,7 @@ namespace WpfAppTest2 {
 
         private int count = 0;
 
-        Timer timer = new Timer(900000);
+        Timer timer = new Timer(10000);
 
         public MainWindow() {
             InitializeComponent();
@@ -77,11 +77,11 @@ namespace WpfAppTest2 {
             count++;
             if (count > 8) {
                 using (var sw = new System.IO.StreamWriter((@"" + who.Content.ToString() + "_タイムログ.txt"), true)) {
-                    sw.Write(currentTime.ToString("yyyy年MM月dd日tthh時mm分ss秒 - " + where.Content.ToString() + "\n"));
+                    sw.Write(currentTime.ToString("yyyy/MM/dd HH:mm:ss " + where.Content.ToString() + "\n"));
                 }
                 var param = new Hashtable();
                 param["who"] = who.Content.ToString();
-                param["timeLog"] = currentTime.ToString("yyyy年MM月dd日tthh時mm分ss秒 - " + where.Content.ToString());
+                param["timeLog"] = currentTime.ToString("yyyy/MM/dd HH:mm:ss " + where.Content.ToString());
                 var serializer = new JavaScriptSerializer();
                 var json = serializer.Serialize(param);
                 var content = new StringContent(json);
@@ -102,8 +102,9 @@ namespace WpfAppTest2 {
 
         private void SetBrightness() {
             DateTime currentTime = DateTime.Now;
+            Console.WriteLine(currentTime.Hour);
 
-            if (currentTime.Hour > 9 || currentTime.Hour < 6) {
+            if (currentTime.Hour > 21 || currentTime.Hour < 6) {
                 string cmd = "$monitor = Get-WmiObject -ns root/wmi -class wmiMonitorBrightNessMethods;$monitor.WmiSetBrightness(0, 10)";
                 Clipboard.SetText(cmd);
                 OpenWithArguments(cmd);
